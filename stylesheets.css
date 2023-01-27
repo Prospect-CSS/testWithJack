@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400; 700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.grid__container {
+    background-color: lime;
+    font-size: 18px;
+    display: grid;
+    gap: 10px;
+    grid-template: "main main main"100vh;
+    grid-template-columns: 15% 1fr 15%;
+}
+
+.grid__item {
+    background-color: #eee;
+    text-align: center;
+    padding: 40px;
+    box-shadow: inset 0 0 5px 10px rgb(42, 63, 155);
+}
+
+.grid__item-fullWidth {
+    grid-area: main;
+    background-color: rgb(163, 50, 50);
+    box-shadow: inset 0 0 5px 10px black;
+}
+
+.grid__item-fullWidth img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid__item-main {
+    box-shadow: inset 0 0 5px 10px rgb(107, 32, 141);
+}
