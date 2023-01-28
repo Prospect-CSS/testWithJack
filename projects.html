@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./stylesheets.css">
     <title>Document</title>
 </head>
 
@@ -16,26 +16,44 @@
             <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Projects</a></li>
+                <li><img src="./imgs/index/brand transparent.png" style="max-width: 40%;">"</li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-
     <div class="grid__container">
-        <div class="grid__item grid__item-main grid__item-fullWidth"><img src="1.jpg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit magni saepe assumenda iste autem est?</div>
-        <div class="grid__item grid__item-main">2</div>
-        <div class="grid__item grid__item-main">3</div>
-        <div class="grid__item">4</div>
-        <div class="grid__item">5</div>
-        <div class="grid__item">6</div>
-        <div class="grid__item">7</div>
-        <div class="grid__item">8</div>
-        <div class="grid__item">9</div>
-        <div class="grid__item">10</div>
+        <div class="grid__item grid__item-main grid__item-fullWidth"><img src="./imgs/index/main_photo_!.jpg"></div>
+        <div class="grid__item grid__transparent"></div>
+        <div class="grid__item ull-width-form">
+            <form class="full-width-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div>
+                    <label for="status">Employer or Employee:</label>
+                    <div>
+                        <input type="radio" id="employer" name="status" value="employer" required>
+                        <label for="employer">Employer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="employee" name="status" value="employee" required>
+                        <label for="employee">Employee</label>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="grid__item grid__transparent"></div>
     </div>
-
 </body>
 
 </html>
