@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets.css">
+    <title></title>
+</head>
+
+<body>
+
+
+    <!-- header section with navigation bar and links to different pages -->
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/index.html"><img src="./imgs/index/brand-transparent-red.png" style="max-width: 40%;"
+                            id="logo"></a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html"><u>Contact</u></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- grid container for main content-->
+    <div class="grid__container">
+        <div class="grid__item grid__item-main grid__item-fullWidth"><img src="./imgs/index/main_photo_contact.png">
+        </div>
+
+
+        <div class="grid__item grid__transparent"></div>
+        <div class="grid__item full-width-form">
+            <!-- form section with name, message and employer or employee options -->
+
+            <div class="container">
+                <h3 style="margin: 0px;">Send me a message.</h3>
+                <form action="action_page.php">
+                    <div class="row rowMessage">
+                        <label style="margin-top: 0px;">
+                        </label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your forename..">
+                    </div>
+                    <div class="row">
+                        <input type="text" id="lname" name="lastname" placeholder="Your surname..">
+                    </div>
+                    <div class="row">
+                        <select id="country" name="country" placeholder="Your country..">
+                            <option value="canada">United Kingdom</option>
+                            <option value="usa">United States of America</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <textarea id="subject" name="subject" placeholder="Write your message here.."
+                            style="height:200px"></textarea>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="grid__item grid__transparent"></div>
+
+
+    </div>
+
+
+    <div class="spacer"></div>
+
+    <footer>
+        <div class="footer">
+            <div id="button"></div>
+            <div id="container">
+                <div id="cont">
+                    <div class="footer_center">
+                        <h3>Website designed & implemented by Jack Griffin Copyright &copy;2023</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+</html>
