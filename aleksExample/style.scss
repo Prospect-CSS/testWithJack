@@ -1,0 +1,19 @@
+// helpers
+@import "scss/helpers/functions";
+@import "scss/helpers/variables";
+@import "scss/helpers/mixins";
+
+@import "scss/fonts";
+@import "scss/root";
+@import "scss/normalize";
+@import "scss/general";
+@import "scss/header";
+@import "scss/forms";
+@import "scss/footer";
+@import "scss/buttons";
+
+//pages
+@import "scss/pages/about";
+@import "scss/pages/project";
+@import "scss/pages/blog";
+@import "scss/pages/contacts";

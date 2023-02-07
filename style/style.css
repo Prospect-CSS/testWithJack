@@ -1,45 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-}
-
-header nav {
-  padding: 1rem;
-}
-header nav ul {
-  display: flex;
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  justify-content: space-evenly;
-}
-header nav ul li {
-  flex: 1;
-  text-align: center;
-}
-
-.grid__container {
-  background-color: lime;
-  font-size: 18px;
-  display: grid;
-  gap: 10px;
-  grid-template: "a a a" 400px ". . ." 300px ". . ." 200px;
-}
-.grid__item {
-  background-color: #eee;
-  text-align: center;
-  padding: 40px;
-  box-shadow: inset 0 0 5px 10px rgb(42, 63, 155);
-}
-.grid__item-fullWidth {
-  grid-area: a;
-  background-color: rgb(163, 50, 50);
-  box-shadow: inset 0 0 5px 10px black;
-}
-.grid__item-main {
-  box-shadow: inset 0 0 5px 10px rgb(107, 32, 141);
+  background-color: #181818;
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
 }

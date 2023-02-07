@@ -1,0 +1,38 @@
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: -82px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 1s;
+    cursor: pointer;
+    // .footer__button
+    &__button {
+        width: 35px;
+        height: 35px;
+        border: var(--color-white) 12px solid;
+        border-radius: 25px;
+        margin: 0 auto;
+        transition: all 1s ease;
+        box-shadow: 0 0 3px 3px var(--color-bg-dark);
+    }
+    &:hover {
+        bottom: 0px;
+    }
+
+    // .footer__container
+
+    &__container {
+        width: 100vw;
+        background-color: var(--color-bg-dark);
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    // .footer__text
+
+    &__text {
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
